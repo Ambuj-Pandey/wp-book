@@ -16,3 +16,5 @@ include_once WP_BOOK_PLUGIN_DIR . 'includes/wp-book-custom-post-type.php';
 include_once WP_BOOK_PLUGIN_DIR . 'includes/wp-book-hierarchical-taxonomy.php';
 include_once WP_BOOK_PLUGIN_DIR . 'includes/wp-book-non-hierarchical-taxonomy.php';
 include_once WP_BOOK_PLUGIN_DIR . 'includes/wp-book-meta-boxes.php';
+include_once WP_BOOK_PLUGIN_DIR . 'includes/wp-book-meta-table.php';
+register_activation_hook( __FILE__, 'wp_book_create_meta_table' );
