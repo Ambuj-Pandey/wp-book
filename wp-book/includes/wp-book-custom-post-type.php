@@ -1,6 +1,6 @@
 <?php
 function wp_book_register_post_type() {
-    $labels = [
+    $labels = array(
         'name'               => __('Books',  'wp-book'),
         'singular_name'      => __('Book', 'wp-book'),
         'menu_name'          => __('Books', 'wp-book'),
@@ -15,9 +15,9 @@ function wp_book_register_post_type() {
         'parent_item_colon'  => __('Parent Books:', 'wp-book'),
         'not_found'          => __('No books found.', 'wp-book'),
         'not_found_in_trash' => __('No books found in Trash.', 'wp-book'),
-    ];
+    );
 
-    $args = [
+    $args = array(
         'labels'             => $labels,
         'description'        => __('Description.', 'wp-book'),
         'public'             => true,
@@ -26,20 +26,20 @@ function wp_book_register_post_type() {
         'show_ui'            => true,
         'show_in_menu'       => true,
         'query_var'          => true,
-        'rewrite'            => ['slug' => 'book'],
+        'rewrite'            => array( 'slug' => 'book' ),
         'capability_type'    => 'post',
         'has_archive'        => true,
         'hierarchical'       => false,
         'menu_position'      => null,
-        'supports'           => [
+        'supports'           => array(
             'title',
             'editor',
             'author',
             'thumbnail',
             'excerpt',
             'comments',
-        ],
-    ];
+        ),
+    );
 
     register_post_type('book', $args);
 }
