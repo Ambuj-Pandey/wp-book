@@ -20,3 +20,4 @@ include_once WP_BOOK_PLUGIN_DIR . 'includes/wp-book-meta-table.php';
 register_activation_hook( __FILE__, 'wp_book_create_meta_table' );
 
 include_once WP_BOOK_PLUGIN_DIR . 'includes/wp-book-admin-settings.php';
+include_once WP_BOOK_PLUGIN_DIR . 'includes/wp-book-shortcode.php';
