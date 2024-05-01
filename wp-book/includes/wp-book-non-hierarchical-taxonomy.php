@@ -20,6 +20,8 @@ function wp_book_register_taxonomy_tag() {
         'labels'            => $labels,
         'public'            => true,
         'hierarchical'      => false,
+        'show_ui'           => true,
+        'show_admin_column' => true,
         'rewrite'           => array( 'slug' => 'book-tag' ),
     );
 

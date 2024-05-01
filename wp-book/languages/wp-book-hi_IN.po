@@ -1,0 +1,242 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: wp-book\n"
+"Language: hi\n"
+
+#. Plugin Name of the plugin
+#: 
+msgid "WP Book"
+msgstr "WP बुक"
+
+#. Description of the plugin
+#: 
+msgid "A WordPress plugin for managing books, categories, and book-related features."
+msgstr "पुस्तकों, श्रेणियों और पुस्तक-संबंधी सुविधाओं के प्रबंधन के लिए एक वर्डप्रेस प्लगइन।"
+
+#. Author of the plugin
+#: 
+msgid "Ambuj Pandey"
+msgstr "अम्बुज पाण्डेय"
+
+#. Author URI of the plugin
+#: 
+msgid "https://github.com/Ambuj-Pandey/wp-book"
+msgstr "https://github.com/Ambuj-Pandey/wp-book"
+
+#: includes/wp-book-admin-settings.php:6
+#: includes/wp-book-admin-settings.php:19
+msgid "Book Settings"
+msgstr "पुस्तक सेटिंग्स"
+
+#: includes/wp-book-admin-settings.php:7
+msgid "Settings"
+msgstr "सेटिंग्स"
+
+#: includes/wp-book-admin-settings.php:37
+msgid "General Settings"
+msgstr "सामान्य सेटिंग्स"
+
+#: includes/wp-book-admin-settings.php:44
+msgid "Currency"
+msgstr "मुद्रा"
+
+#: includes/wp-book-admin-settings.php:52
+msgid "Books per Page"
+msgstr "प्रति पृष्ठ पुस्तकें"
+
+#: includes/wp-book-admin-settings.php:62
+msgid "Configure general settings for the WP Book plugin."
+msgstr "WP Book प्लगइन के लिए सामान्य सेटिंग्स कॉन्फ़िगर करें।"
+
+#: includes/wp-book-custom-post-type.php:4
+#: includes/wp-book-custom-post-type.php:6
+msgid "Books"
+msgstr "पुस्तकें"
+
+#: includes/wp-book-custom-post-type.php:5
+#: includes/wp-book-custom-post-type.php:7
+msgid "Book"
+msgstr "किताब"
+
+#: includes/wp-book-custom-post-type.php:8
+msgid "Add New"
+msgstr "नया जोड़ो"
+
+#: includes/wp-book-custom-post-type.php:9
+msgid "Add New Book"
+msgstr "नई पुस्तक जोड़ें"
+
+#: includes/wp-book-custom-post-type.php:10
+msgid "New Book"
+msgstr "नई पुस्तक"
+
+#: includes/wp-book-custom-post-type.php:11
+msgid "Edit Book"
+msgstr "पुस्तक संपादित करें"
+
+#: includes/wp-book-custom-post-type.php:12
+msgid "View Book"
+msgstr "पुस्तक देखें"
+
+#: includes/wp-book-custom-post-type.php:13
+msgid "All Books"
+msgstr "सभी पुस्तकें"
+
+#: includes/wp-book-custom-post-type.php:14
+msgid "Search Books"
+msgstr "पुस्तकें खोजें"
+
+#: includes/wp-book-custom-post-type.php:15
+msgid "Parent Books:"
+msgstr "मूल पुस्तकें:"
+
+#: includes/wp-book-custom-post-type.php:16
+msgid "No books found."
+msgstr "कोई पुस्तक नहीं मिली."
+
+#: includes/wp-book-custom-post-type.php:17
+msgid "No books found in Trash."
+msgstr "कूड़ेदान में कोई पुस्तक नहीं मिली."
+
+#: includes/wp-book-custom-post-type.php:22
+msgid "Description."
+msgstr "विवरण।"
+
+#: includes/wp-book-custom-widget.php:7
+msgid "Book Category Widget"
+msgstr "पुस्तक श्रेणी विजेट"
+
+#: includes/wp-book-custom-widget.php:9
+msgid "Display books of selected category in the sidebar."
+msgstr "चयनित श्रेणी की पुस्तकें साइडबार में प्रदर्शित करें।"
+
+#: includes/wp-book-hierarchical-taxonomy.php:5
+#: includes/wp-book-hierarchical-taxonomy.php:7
+msgid "Book Categories"
+msgstr "पुस्तक श्रेणियाँ"
+
+#: includes/wp-book-hierarchical-taxonomy.php:6
+msgid "Book Category"
+msgstr "पुस्तक श्रेणी"
+
+#: includes/wp-book-hierarchical-taxonomy.php:8
+msgid "All Categories"
+msgstr "सब श्रेणियाँ"
+
+#: includes/wp-book-hierarchical-taxonomy.php:9
+msgid "Edit Category"
+msgstr "श्रेणी संपादित करें"
+
+#: includes/wp-book-hierarchical-taxonomy.php:10
+msgid "View Category"
+msgstr "श्रेणी देखें"
+
+#: includes/wp-book-hierarchical-taxonomy.php:11
+msgid "Update Category"
+msgstr "श्रेणी अपडेट करें"
+
+#: includes/wp-book-hierarchical-taxonomy.php:12
+msgid "Add New Category"
+msgstr "नई श्रेणी जोड़ें"
+
+#: includes/wp-book-hierarchical-taxonomy.php:13
+msgid "New Category Name"
+msgstr "नई श्रेणी का नाम"
+
+#: includes/wp-book-hierarchical-taxonomy.php:14
+msgid "Parent Category"
+msgstr "अभिभावक श्रेणी"
+
+#: includes/wp-book-hierarchical-taxonomy.php:15
+msgid "Parent Category:"
+msgstr "अभिभावक श्रेणी:"
+
+#: includes/wp-book-hierarchical-taxonomy.php:16
+msgid "Search Categories"
+msgstr "श्रेणियाँ खोजिये"
+
+#: includes/wp-book-hierarchical-taxonomy.php:17
+msgid "No categories found"
+msgstr "कोई श्रेणी नहीं मिली"
+
+#: includes/wp-book-hierarchical-taxonomy.php:18
+msgid "No categories found in Trash"
+msgstr "ट्रैश में कोई श्रेणी नहीं मिली"
+
+#: includes/wp-book-meta-boxes.php:15
+msgid "Author Name:"
+msgstr "लेखक का नाम:"
+
+#: includes/wp-book-meta-boxes.php:19
+msgid "Price:"
+msgstr "कीमत:"
+
+#: includes/wp-book-meta-boxes.php:23
+msgid "Publisher:"
+msgstr "प्रकाशक:"
+
+#: includes/wp-book-meta-boxes.php:27
+msgid "Year:"
+msgstr "वर्ष:"
+
+#: includes/wp-book-meta-boxes.php:31
+msgid "Edition:"
+msgstr "संस्करण:"
+
+#: includes/wp-book-meta-boxes.php:35
+msgid "URL:"
+msgstr "यूआरएल:"
+
+#: includes/wp-book-meta-boxes.php:43
+msgid "Book Information"
+msgstr "पुस्तक की जानकारी"
+
+#: includes/wp-book-non-hierarchical-taxonomy.php:5
+#: includes/wp-book-non-hierarchical-taxonomy.php:7
+msgid "Book Tags"
+msgstr "पुस्तक टैग"
+
+#: includes/wp-book-non-hierarchical-taxonomy.php:6
+msgid "Book Tag"
+msgstr "पुस्तक टैग"
+
+#: includes/wp-book-non-hierarchical-taxonomy.php:8
+msgid "All Tags"
+msgstr "सभी टैग"
+
+#: includes/wp-book-non-hierarchical-taxonomy.php:9
+msgid "Edit Tag"
+msgstr "टैग संपादित करें"
+
+#: includes/wp-book-non-hierarchical-taxonomy.php:10
+msgid "View Tag"
+msgstr "टैग देखें"
+
+#: includes/wp-book-non-hierarchical-taxonomy.php:11
+msgid "Update Tag"
+msgstr "टैग अपडेट करें"
+
+#: includes/wp-book-non-hierarchical-taxonomy.php:12
+msgid "Add New Tag"
+msgstr "नया टैग जोड़ें"
+
+#: includes/wp-book-non-hierarchical-taxonomy.php:13
+msgid "New Tag Name"
+msgstr "नया टैग नाम"
+
+#: includes/wp-book-non-hierarchical-taxonomy.php:14
+msgid "Search Tags"
+msgstr "खोज टैग"
+
+#: includes/wp-book-non-hierarchical-taxonomy.php:15
+msgid "No tags found"
+msgstr "कोई टैग नहीं मिला"
+
+#: includes/wp-book-non-hierarchical-taxonomy.php:16
+msgid "No tags found in Trash"
+msgstr "ट्रैश में कोई टैग नहीं मिला"
+

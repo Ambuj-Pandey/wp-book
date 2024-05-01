@@ -5,6 +5,7 @@
  * Version: 1.0.0
  * Author: Ambuj Pandey
  * Author URI: https://github.com/Ambuj-Pandey/wp-book
+ * Text Domain: wp-book
  * Domain Path: /languages/
  */
 
@@ -20,6 +21,15 @@ include_once WP_BOOK_PLUGIN_DIR . 'includes/wp-book-meta-table.php';
 register_activation_hook( __FILE__, 'wp_book_create_meta_table' );
 
 include_once WP_BOOK_PLUGIN_DIR . 'includes/wp-book-admin-settings.php';
+
 include_once WP_BOOK_PLUGIN_DIR . 'includes/wp-book-shortcode.php';
-include_once WP_BOOK_PLUGIN_DIR . 'includes/wp-book-custom-dashboard-widget.php';
 include_once WP_BOOK_PLUGIN_DIR . 'includes/wp-book-custom-widget.php';
+include_once WP_BOOK_PLUGIN_DIR . 'includes/wp-book-custom-dashboard-widget.php';
+
+
+add_action(
+    'plugins_loaded',
+    function () {
+        load_plugin_textdomain('wp-book', false, dirname(plugin_basename(__FILE__)).'/languages/');
+    }
+);

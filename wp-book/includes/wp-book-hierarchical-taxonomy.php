@@ -22,6 +22,8 @@ function wp_book_register_taxonomy_category() {
         'labels'            => $labels,
         'public'            => true,
         'hierarchical'      => true,
+        'show_ui'           => true,
+        'show_admin_column' => true,
         'rewrite'           => array( 'slug' => 'book-category' ),
     );
 
