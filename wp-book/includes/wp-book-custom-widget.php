@@ -20,9 +20,9 @@ class Book_Category_Widget extends WP_Widget {
             echo $args['before_title'] . $title . $args['after_title'];
         }
 
-        $args = array(
+        $query_args = array(
             'post_type' => 'book',
-            'posts_per_page' => 5, // Number of books to display
+            'posts_per_page' => 5,
             'tax_query' => array(
                 array(
                     'taxonomy' => 'book_category',
@@ -32,7 +32,7 @@ class Book_Category_Widget extends WP_Widget {
             ),
         );
 
-        $books_query = new WP_Query($args);
+        $books_query = new WP_Query($query_args);
 
         if ($books_query->have_posts()) {
             echo '<ul>';
